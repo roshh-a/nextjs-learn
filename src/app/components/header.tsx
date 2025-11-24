@@ -12,7 +12,7 @@ const Header = () => {
     const pathName = usePathname();
     return (
         <>
-            <header className="bg-red-300">
+            <header className="bg-gray-400">
                 <nav className="relative select-none bg-grey lg:flex lg:items-stretch w-full">
                     <div className="flex flex-no-shrink items-stretch h-12">
                         {navLinks.map(link => {

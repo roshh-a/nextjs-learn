@@ -40,7 +40,7 @@ export default function RootLayout({
         <div className="grow">
           {children}
         </div>
-        <footer className="bg-red-300 p-1 text-black">
+        <footer className="bg-gray-400 p-1 text-black">
           Footer
         </footer>
       </body>
