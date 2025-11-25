@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from "react"
 
-const Dashboard = async () => {
+const Dashboard = () => {
     const [name, setName] = useState<string>("Rosh");
     console.log("Dashboard - client component")
     useEffect(() => {
